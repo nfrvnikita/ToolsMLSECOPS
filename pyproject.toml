@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "mlsecops-examples"
+version = "0.1.0"
+description = ""
+authors = ["nfrvnikita <nfrv.nikita@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+numpy = "^2.0.1"
+scikit-learn = "^1.5.1"
+adversarial-robustness-toolbox = "^1.18.1"
+matplotlib = "^3.9.1"
+lintml = "^0.0.5"
+transformers = "^4.43.2"
+accelerate = "0.30.0"
+foolbox = "^3.3.4"
+scipy = "^1.14.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
